@@ -6,7 +6,7 @@
 
 ## 予測データについて
 - 株価データ  
-以下指標を基に予測。  
+以下指標を基に予測  
   - 過去10年間の株価終値
   - 出来高：株価の勢い
   - RSI(14日)：過熱感/売られすぎの判断
@@ -21,7 +21,8 @@
 ```
 pip install jaconv streamlit yfinance pandas numpy scikit-learn tensorflow matplotlib requests
 ```
-または、requirements.txtよりインストールする場合（プロトタイプなため、ライブラリのインストール方法は任意とする。）
+または、requirements.txtよりインストールする場合  
+（プロトタイプなため、ライブラリのインストール方法は任意とする。）
 ```
 pip install -r requirements.txt
 ```
@@ -38,5 +39,5 @@ streamlit run app.py
 | Python | 3.9 |
 
 ## 備考  
-個人利用を目的としたプロトタイプツールです。
+個人利用を目的としたプロトタイプツールです。  
 予測結果は極端に乖離した数値を算出するなど、意図しない結果となることがあります。
